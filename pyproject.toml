@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mongo-driver-async"
+version = "0.1.0"
+description = ""
+authors = ["Akshat <akshat25iiit@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pymongo = "3.11.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
